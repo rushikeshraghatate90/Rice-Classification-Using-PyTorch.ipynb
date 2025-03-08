@@ -44,7 +44,7 @@ The target variable indicates the **class of rice** based on these features.
 
 ### 1️⃣ Clone the Repository  
 ```bash
-git clone https://github.com/your-username/rice-classification-pytorch.git
+git clone https://github.com/rushikeshraghatate90/Rice-Classification-Using-PyTorch.ipynb.git
 cd rice-classification-pytorch
 ```
 
