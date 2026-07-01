@@ -1,156 +1,280 @@
-# 🌾 Rice Classification Using PyTorch  
+# 🌾 Rice Classification Using PyTorch
 
-## 📖 Project Overview  
-This project focuses on **tabular data classification** to distinguish between different types of rice grains. Using **PyTorch**, we train a deep learning model to classify rice based on its **physical and geometric attributes**. The model achieves a high accuracy of **98.39%** on the test dataset! 🚀  
+<p align="center">
 
-## 🎯 Objectives  
-✔️ Preprocess and normalize tabular data  
-✔️ Train a **PyTorch-based neural network** for classification  
-✔️ Evaluate the model using accuracy and loss metrics  
-✔️ Perform inference to classify new rice samples  
-✔️ Visualize training performance with loss and accuracy plots  
+<img src="https://img.shields.io/badge/Task-Tabular%20Classification-1f77b4?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Architecture-MLP%20Neural%20Network-6f42c1?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Framework-PyTorch-ee4c2c?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Language-Python-3776AB?style=for-the-badge"/>
 
----
+<br>
 
-## 🛠 Technologies Used  
-| Technology | Purpose |
-|------------|---------|
-| **Python** 🐍 | Core programming language |
-| **PyTorch** 🔥 | Deep learning framework |
-| **Pandas** 📊 | Data handling and preprocessing |
-| **Scikit-learn** 🤖 | Machine learning utilities |
-| **Matplotlib & Seaborn** 📈 | Data visualization |
+<img src="https://img.shields.io/badge/Dataset-Rice%20Type%20Classification-3CB043?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Classes-5-F28C28?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Accuracy-98.39%25-38B000?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Completed-38B000?style=for-the-badge"/>
 
----
+</p>
 
-## 📂 Dataset Description  
-The dataset consists of multiple numerical features representing **physical characteristics of rice grains**. These include:  
-- 🌱 **Area**  
-- 📏 **Major Axis Length**  
-- 📐 **Minor Axis Length**  
-- 🔺 **Eccentricity**  
-- 📦 **Convex Area**  
-- 🔵 **EquivDiameter**  
-- 🔳 **Extent**  
-- 🌀 **Perimeter**  
-- ⚫ **Roundness**  
-- 📊 **Aspect Ratio**  
+## 🔗 Project Resources
 
-The target variable indicates the **class of rice** based on these features.  
+<p align="center">
+
+<a href="https://www.kaggle.com/code/rushikeshraghatate/rice-classification-using-pytorch">
+<img src="https://img.shields.io/badge/📒%20VIEW-KAGGLE%20NOTEBOOK-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+</a>
+<a href="https://www.kaggle.com/datasets/mssmartypants/rice-type-classification">
+<img src="https://img.shields.io/badge/📊%20VIEW-KAGGLE%20DATASET-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white"/>
+</a>
+<a href="https://www.kaggle.com/datasets/mssmartypants/rice-type-classification">
+<img src="https://img.shields.io/badge/🙏%20DATASET%20BY-MSSMARTYPANTS-00599C?style=for-the-badge"/>
+</a>
+
+</p>
+
+<p align="center">
+<b>Click any badge above to open the corresponding Kaggle resource.</b>
+</p>
 
 ---
 
-## 🚀 How to Run the Project  
+# 📖 Project Overview
 
-### 1️⃣ Clone the Repository  
+Rice Classification Using PyTorch is a **deep learning-based tabular classification project** that predicts the type of rice grain from its physical and geometric characteristics.
+
+The project demonstrates how a **Multi-Layer Perceptron (MLP)** built with **PyTorch** can effectively learn complex relationships between numerical features and achieve a **98.39% test accuracy**.
+
+The workflow includes data preprocessing, feature normalization, model training, evaluation, visualization, and inference on unseen rice samples.
+
+---
+
+# 🎯 Objectives
+
+- Build a deep learning classifier using PyTorch
+- Preprocess and normalize numerical features
+- Train an MLP neural network for rice type classification
+- Evaluate model performance using accuracy and loss metrics
+- Visualize learning curves
+- Perform inference on custom rice grain measurements
+
+---
+
+# 🚀 Key Features
+
+- ✅ End-to-end PyTorch implementation
+- ✅ Tabular Deep Learning
+- ✅ Feature Normalization
+- ✅ Model Training & Validation
+- ✅ Accuracy and Loss Visualization
+- ✅ Real-time Prediction Support
+- ✅ Simple and Reproducible Notebook
+
+---
+
+# 🛠 Tech Stack
+
+| Category | Technology |
+|-----------|------------|
+| Language | Python |
+| Deep Learning | PyTorch |
+| Data Processing | Pandas |
+| Machine Learning | Scikit-learn |
+| Visualization | Matplotlib |
+| Notebook | Jupyter Notebook |
+
+---
+
+# 📂 Dataset
+
+The model is trained on the **Rice Type Classification Dataset** available on Kaggle.
+
+### Dataset Highlights
+
+- Numerical tabular dataset
+- Physical and geometric characteristics of rice grains
+- Multiple rice classes
+- Suitable for supervised classification tasks
+
+### Input Features
+
+- Area
+- Major Axis Length
+- Minor Axis Length
+- Eccentricity
+- Convex Area
+- EquivDiameter
+- Extent
+- Perimeter
+- Roundness
+- Aspect Ratio
+
+---
+
+# 🙏 Dataset Acknowledgement
+
+Special thanks to **mssmartypants** for making the Rice Type Classification dataset publicly available on Kaggle.
+
+Your contribution enables students, researchers, and developers to explore practical machine learning applications.
+
+---
+
+# 🚀 Getting Started
+
+## Clone the Repository
+
 ```bash
 git clone https://github.com/rushikeshraghatate90/Rice-Classification-Using-PyTorch.ipynb.git
+```
+
+```bash
 cd rice-classification-pytorch
 ```
 
-### 2️⃣ Install Dependencies  
+---
+
+## Install Dependencies
+
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the Jupyter Notebook  
+---
+
+## Launch Jupyter Notebook
+
 ```bash
 jupyter notebook
 ```
-Open **Rice Classification Using PyTorch.ipynb** and execute the cells sequentially.  
+
+Open
+
+```
+Rice Classification Using PyTorch.ipynb
+```
+
+and execute all cells sequentially.
 
 ---
 
-## 📊 Model Training & Evaluation  
+# 🧠 Model Architecture
 
-- The dataset is **normalized** for better model performance.  
-- A **fully connected neural network** (MLP) is implemented using PyTorch.  
-- The model is trained using **cross-entropy loss** and optimized using **Adam**.  
-- **Accuracy on the test dataset: 98.39%** 🎯  
+The classifier is implemented as a **Fully Connected Neural Network (MLP)** using PyTorch.
 
-### 📉 Performance Visualization  
-The following plots show how the model performed during training:  
+Training configuration:
 
-🔹 **Loss Curve**: Training vs. Validation Loss  
-🔹 **Accuracy Curve**: Training vs. Validation Accuracy  
-
-```python
-fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(15, 5))
-
-axs[0].plot(total_loss_train_plot, label='Training Loss')
-axs[0].plot(total_loss_validation_plot, label='Validation Loss')
-axs[0].set_title('Training and Validation Loss over Epochs')
-axs[0].set_xlabel('Epochs')
-axs[0].set_ylabel('Loss')
-axs[0].set_ylim([0, 2])
-axs[0].legend()
-
-axs[1].plot(total_acc_train_plot, label='Training Accuracy')
-axs[1].plot(total_acc_validation_plot, label='Validation Accuracy')
-axs[1].set_title('Training and Validation Accuracy over Epochs')
-axs[1].set_xlabel('Epochs')
-axs[1].set_ylabel('Accuracy')
-axs[1].set_ylim([0, 100])
-axs[1].legend()
-
-plt.tight_layout()
-plt.show()
-```
+- Neural Network (MLP)
+- Cross Entropy Loss
+- Adam Optimizer
+- Feature Normalization
+- GPU Support (CUDA)
 
 ---
 
-## 🏆 Model Inference  
-Once the model is trained, it can be used for **real-time predictions**. Here’s an example where the model classifies a new rice grain sample:
+# 📊 Model Performance
+
+### Test Accuracy
+
+> **98.39%**
+
+### Training Strategy
+
+- Feature normalization
+- Supervised learning
+- Cross Entropy Loss
+- Adam Optimizer
+
+---
+
+# 📈 Training Visualization
+
+The notebook visualizes:
+
+- Training Loss
+- Validation Loss
+- Training Accuracy
+- Validation Accuracy
 
 ```python
-area = float(input("Area: "))/original_df['Area'].abs().max()
-MajorAxisLength = float(input("Major Axis Length: "))/original_df['MajorAxisLength'].abs().max()
-MinorAxisLength = float(input("Minor Axis Length: "))/original_df['MinorAxisLength'].abs().max()
-Eccentricity = float(input("Eccentricity: "))/original_df['Eccentricity'].abs().max()
-ConvexArea = float(input("Convex Area: "))/original_df['ConvexArea'].abs().max()
-EquivDiameter = float(input("EquivDiameter: "))/original_df['EquivDiameter'].abs().max()
-Extent = float(input("Extent: "))/original_df['Extent'].abs().max()
-Perimeter = float(input("Perimeter: "))/original_df['Perimeter'].abs().max()
-Roundness = float(input("Roundness: "))/original_df['Roundness'].abs().max()
-AspectRation = float(input("AspectRation: "))/original_df['AspectRation'].abs().max()
-
-my_inputs = [area, MajorAxisLength, MinorAxisLength, Eccentricity, ConvexArea, EquivDiameter, Extent, Perimeter, Roundness, AspectRation]
-
-model_inputs = torch.Tensor(my_inputs).to(device)
-prediction = model(model_inputs)
-print("Predicted Class:", round(prediction.item()))
+fig, axs = plt.subplots(nrows=1, ncols=2, figsize=(15,5))
 ```
 
-### 📝 Sample Output  
-```bash
+These plots help monitor convergence and identify overfitting during training.
+
+---
+
+# 🔍 Model Inference
+
+After training, the model accepts numerical measurements of a rice grain and predicts its corresponding class.
+
+Example workflow:
+
+1. Enter rice grain measurements.
+2. Normalize the input features.
+3. Pass the tensor through the trained PyTorch model.
+4. Obtain the predicted rice class.
+
+---
+
+# 📋 Sample Prediction
+
+```text
 Area: 6431.279
+
 Major Axis Length: 145.21338
+
 Minor Axis Length: 56.902
+
 Eccentricity: 0.919981821
+
 Convex Area: 6518.93759999
+
 EquivDiameter: 90.483541
+
 Extent: 0.8506668
+
 Perimeter: 329.972
+
 Roundness: 0.742255516
+
 AspectRation: 2.551696
-====================
-tensor([0.8427], device='cuda:0', grad_fn=<SigmoidBackward0>)
-Class is: 1
+
+Prediction
+
+Class: 1
 ```
 
 ---
 
-## 🔮 Future Improvements  
-🚀 **Hyperparameter tuning** to improve accuracy  
-📈 **Exploring different deep learning architectures**  
-🎯 **Deploying the model as an API using Flask**  
+# 📌 Future Improvements
+
+- Hyperparameter Optimization
+- Advanced Neural Network Architectures
+- Automated Model Selection
+- Flask/FastAPI Deployment
+- Docker Support
+- Model Quantization
+- ONNX Export
+- Web-based Prediction Interface
 
 ---
 
-## 🤝 Contributing  
-If you find this project useful, feel free to:  
-✔️ **Fork the repo**  
-✔️ **Report issues**  
-✔️ **Suggest improvements**  
+# 🤝 Contributing
+
+Contributions are welcome.
+
+If you'd like to improve this project:
+
+- Fork the repository
+- Create a feature branch
+- Commit your changes
+- Open a Pull Request
+
+---
+
+# ⭐ Support
+
+If you found this project helpful, please consider giving it a ⭐ on GitHub.
+
+It helps support future open-source AI and Deep Learning projects.
 
 ---
